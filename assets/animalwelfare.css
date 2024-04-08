@@ -21,7 +21,7 @@ body{
 }
 .navbar p{
 margin-top: 80px;
-font-size: 150%;
+ font-size: 150%;
 /* font-family: Arial, Helvetica, sans-serif; */
 margin-left:-150px;
 
@@ -96,6 +96,7 @@ nav {
 
 .image img {
   height: 780px;
+  margin-left: 0px;
   width: 1480px;
 }
 
@@ -152,33 +153,14 @@ nav {
   }
   
 
-.intro-list {
-    list-style: disc; 
-    margin-left: 90px;
-    margin-bottom: 40px; /* Space below the list */
-  }
-  
-  
-  .intro-list li {
-    margin-bottom: 10px;  
-     
-    padding-left: 20px;  
-  }
-  
-   
-  .intro-list h5 {
-    color: rgb(7, 1, 57);
-    margin-right: 15px;
-  }
-  
 /* section 2 */
 
 
 .info-container {
   background-color: rgb(17, 60, 95);
-  background-image: url(https://images.unsplash.com/photo-1524069290683-0457abfe42c3?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+  background-image: url(https://images.unsplash.com/photo-1549468057-5b7fa1a41d7a?q=80&w=2071&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
   background-size: cover;
-  height: 600px;
+  height: 670px;
   width: 100%;
   padding-top: 50px;
   padding-left: 100px;
@@ -191,6 +173,11 @@ nav {
   margin-left: 340px;
   color: #fff;
 }
+
+ul.info-ul {
+    list-style-type: square;/* Square bullets outside the content */
+  }
+  
 
 .info-container h4{
   margin-bottom: 20px;
@@ -213,7 +200,7 @@ nav {
     background: var(--main-color);
     align-items: center;
     padding-bottom: 15px;
-    padding-left: 460px;
+    padding-left: 150px;
     margin-top: 30px;
     opacity: 0.8;
      
@@ -221,7 +208,7 @@ nav {
 }
 .what-we-offer p {
 	margin-top: 20px;
-  margin-left: 20px;
+   margin-left: 0px;
 	line-height: 1.6;
 }
 
@@ -290,11 +277,12 @@ nav {
 }
 #cardheading{
     color: #fffdfd;
-    background: var(--main-color);
+    background:var(--main-color);
     align-items: center;
     padding-bottom: 15px;
     padding-left: 460px;
     margin-top: 30px;
+    
     opacity: 0.8;
 }
 .card-outer{
@@ -344,8 +332,8 @@ nav {
   
   .card__title {
     font-size: 24px;
-    color: var(--text-color);
     font-weight: bold;
+    color: var(--text-color);
     margin-bottom: 10px;
   }
   
@@ -385,12 +373,9 @@ nav {
 
 
 /* contact us */
-
-/* contact us */
 .main-contact-container{
   background-color: var(--main-color);
   height:750px;
-  margin-bottom: -100px;
   /* width: 100%; */
   display: flex;
   justify-content: center;
@@ -399,13 +384,6 @@ nav {
 }
 .contact-section h1 {
     margin-left: 100px;
-    color: var(--text-color);
-    padding-right: 60px;
-    font-size: 4rem;
-    text-shadow:0px 0px 4px rgb(12, 0, 5) ;
-    margin-left:40px;
-    padding-left:100px;
-    margin-top: -150px;
 
 }
  
@@ -584,20 +562,16 @@ i {
 /* Style for contact information section */
 .contact-info {
   background: var(--main-color);
-  padding: -13px;
   margin-right: 40px;
   margin-left: 90px;
-  margin-top: 60px;
-  height: 23rem;
-  margin-bottom:-200px;
-  margin-top:200px;
+  height: 20px;
+  margin-bottom:200px;
 }
 
 /* Style for headings */
 .contact-info h5 {
   color: var(--text-color);
   font-size: 2em;
-
   margin-bottom: 30px;
   
 }
@@ -644,7 +618,7 @@ li .wrap-icon {
 
 .donate{
   padding: 1.3em 3em;
-  margin:157px 77px 450px 96px;
+  margin:157px 77px 50px 96px;
   font-size: 12px;
   text-transform: uppercase;
   letter-spacing: 2.5px;
@@ -706,8 +680,8 @@ footer {
 .copy {
   font-size: 12px;
   padding: 10px;
-  margin-top: 30px;
   border-top: 1px solid #FFFFFF;
+  margin-top: 30px;
 }
 
 .footer-middle {

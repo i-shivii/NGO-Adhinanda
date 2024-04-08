@@ -5,11 +5,14 @@
 @import url("https://fonts.googleapis.com/css?family=Poppins:400,400i,700");
 
 :root{
-  --bg-color: #ffffff;
+  --bg-color: #c9b1b1;
   --div1-bg-color:#EEE2DC ;
   --div2-bg-color: #b8b2b2d8;
   --text-color: #AC3B61;
   --main-color: #0b2847;
+}
+body{
+  width:100%;
 }
 .navbar{
   background:var(--main-color);
@@ -63,7 +66,7 @@ nav {
 }
 
 .navbar-brand:hover {
-  color: var(--text-color);
+  color: #ffff;
 }
 
 .d-flex input {
@@ -93,14 +96,14 @@ nav {
 
 .image img {
   height: 780px;
-  width: 100%;
+  width: 1480px;
 }
 
 .header{
   position: absolute;
   width: 60%;
   height: 80px;
-  top: 90%;
+  top: 100%;
   left: 50%;
   transform: translate(-50%, -50%);
   text-align: center;
@@ -113,7 +116,7 @@ nav {
   color: #ffff;
   background: var(--main-color);
   padding: 15px;
-  margin-top: 180px;
+  margin-top: 130px;
 
 }
 
@@ -152,31 +155,13 @@ nav {
 }
 
 
-/* body {
-  margin: 0;
-  min-height: 100vh;
-  display: grid;
-  place-content: center;
-  background: #fafafb;
-}
- */
 
 /* contact us */
-/* 
-body {
-  margin: auto;
-  background: #eaeaea;  
-  font-family: 'Open Sans', sans-serif;
-} */
-
-.contact-section{
-  height:550px;
-  
-}
 
 .main-contact-container{
   background-color: var(--main-color);
-  height:100vh;
+  height:800px;
+  margin-bottom: -100px;
   /* width: 100%; */
   display: flex;
   justify-content: center;
@@ -185,6 +170,7 @@ body {
 }
 .contact-section h1 {
     margin-left: 100px;
+
 }
  
 .info p {
@@ -207,7 +193,7 @@ body {
   background: var(--main-color);
   overflow: hidden;
   padding-bottom: 30px;
-  margin-top:-90px;
+  margin-top:-100px;
   margin-bottom:50px;
 }
 .contactform h1{
@@ -362,12 +348,12 @@ i {
 /* Style for contact information section */
 .contact-info {
   background: var(--main-color);
-  padding: 25px;
+  padding: -13px;
   margin-right: 40px;
   margin-left: 90px;
   height: 23rem;
   margin-bottom:-200px;
-  margin-top:300px;
+  margin-top:200px;
 }
 
 /* Style for headings */
@@ -420,7 +406,7 @@ li .wrap-icon {
 
 .donate{
   padding: 1.3em 3em;
-  margin:180px 77px 450px 120px;
+  margin:157px 77px 450px 96px;
   font-size: 12px;
   text-transform: uppercase;
   letter-spacing: 2.5px;
@@ -445,8 +431,6 @@ li .wrap-icon {
 .donate:active {
   transform: translateY(-1px);
 }
-
-
 
 
 
@@ -484,6 +468,7 @@ footer {
   font-size: 12px;
   padding: 10px;
   border-top: 1px solid #FFFFFF;
+  margin-top: 30px;
 }
 
 .footer-middle {
@@ -617,14 +602,4 @@ li a {
   color: #fff; /* Set link color */
 }
 
-@keyframes fadeIn {
-  from {
-      opacity: 0;
-      transform: translateY(100%);
-  }
-  to {
-      opacity: 1;
-      transform: translateY(0%);
-  }
-}
 
