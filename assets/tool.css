@@ -38,6 +38,8 @@ nav {
   justify-content: end;
   margin-right: 2px;
   margin-left: 60px;
+  font-size:larger;
+  gap:40px;
 }
 
 .nav-link {
