@@ -5,7 +5,7 @@
 @import url("https://fonts.googleapis.com/css?family=Poppins:400,400i,700");
 
 :root{
-  --bg-color: #c9b1b1;
+  --bg-color: #ffffff;
   --div1-bg-color:#EEE2DC ;
   --div2-bg-color: #b8b2b2d8;
   --text-color: #AC3B61;
@@ -66,7 +66,7 @@ nav {
 }
 
 .navbar-brand:hover {
-  color: #ffff;
+  color: var(--text-color);
 }
 
 .d-flex input {
@@ -117,15 +117,17 @@ nav {
   color: #ffff;
   background: var(--main-color);
   padding: 15px;
-  margin-top: 130px;
+  margin-top: 170px;
 
 }
 
+/* ............................................... */
 
-.milestone h3{
- 
-  margin: 45px 80px 0px 80px;
-  padding: 0px 0px 0px 0px ;
+
+.paraa p{
+  font-size: 200%;
+  font-family: serif;
+  margin: 120px 42px 0px 38px;
   text-align: justify;
 }
 /* ................................................... */
@@ -162,106 +164,10 @@ display:flex;
 
 
 
-/* ........................................... */
-
-.timesec h2{
-   font-size:370%;
-   text-align: center;
-   margin: 96px 0px 0px 14px;
-   color:#0b2847;
-   font-family:cursive;
-
-}
-.timesec p{
-  margin: 10px 0px 0px 0px;
-
-}
-
-.timesection{
-  margin: -60px 0px 0px 0px;
-  display: flex;
-  gap: 10px;
-  flex-wrap: wrap;
-  padding: 74px 65px 0px 80px;
-}
-
-.timeline1 {
-  display: flex;
-  flex-direction: column;
-  margin: 20px auto;
-  position: relative;
-}
-.timeline2 {
-  display: flex;
-  flex-direction: column;
-  margin: 20px auto;
-  position: relative;
-}
-
-.timeline__event {
-  margin-bottom: 20px;
-  position: relative;
-  display: flex;
-  margin: 20px 0;
-  border-radius: 6px;
-  align-self: center;
-  width: 600px;
-}
-
-.timeline__event--type2 .timeline__event__date {
-  
-  background-color: #a2e6b6;
-
-}
-
-.timeline__event--type3 .timeline__event__date {
-
-  background-color: #a2e6b6;
-}
-
-.timeline__event__title {
-  font-size: 1.2rem;
-  line-height: 1.4;
-  text-transform: uppercase;
-  font-weight: 600;
-  color:#bb5a7a;
-  letter-spacing: 1.5px;
-}
-
-.timeline__event__content {
-  padding: 20px;
-  box-shadow: 0 30px 60px -12px rgba(50, 50, 93, 0.25), 0 18px 36px -18px rgba(0, 0, 0, 0.3), 0 -12px 36px -8px rgba(0, 0, 0, 0.025);
-  background: #fff;
-  width: calc(40vw - 84px);
-  border-radius: 0 6px 6px 0;
-}
-
-.timeline__event__date img {
-
-  width: 100px;
-  height: 130px;
-  /* background: #c89bda; */
-  display: flex;
-  align-items: center;
-  width: 200px;
-  padding:12px 33px 13px 47px;
-}
-
-.timeline__event__date {
-
-  width:200px;
-  height:160px;
-  background-color: #a2e6b6;
-
-    display: flex;
-    align-items: center;
-    width:200px;
-  
-  }
 /* .............................................. */
 /* contactus  */
 .contact-section{
-  height:650px;
+  height:580px;
   margin-top:250px;
 }
 
@@ -272,7 +178,6 @@ display:flex;
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-top: -174px;
 
 }
 .contact-section h1 {
@@ -576,7 +481,6 @@ footer {
   font-size: 12px;
   padding: 10px;
   border-top: 1px solid #FFFFFF;
-  margin-top: 30px;
 }
 
 .footer-middle {
