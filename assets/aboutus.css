@@ -701,9 +701,13 @@ height: 226px;
     color:white;
     padding-left:97px;
     padding-right:96px;
+    background-color:#0b2847;
   }
   .modal-body{
-    margin-left:55px;
+    margin-left:80px;
+  }
+  .modal-header{
+    margin:-10px 0px 0px 14px ;
   }
   
   
