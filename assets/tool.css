@@ -18,8 +18,10 @@
 
 .navbar{
   background:var(--main-color);
-  height:100px;
+  height:105px;
   /* opacity: 0.8; */
+  width:100%;
+
 }
 .navbar p{
 margin-top: 80px;
@@ -34,9 +36,9 @@ nav {
   
 }
 .container-fluid img{
-width:100px;
-height:100px;
-margin:0px 0px 0px 0px;
+  width: 114px;
+  height: 107px;
+  margin: -3px -1px -2px 19px;
 }
 
 .navbar-nav {
@@ -75,7 +77,7 @@ margin:0px 0px 0px 0px;
   background-color: #015e15;
   border-radius: 5px;
   border: 2px solid black;
-  margin: 4px 9px 9px 4px;
+  margin: 4px 3px 9px 0px;
   width: 66px;
   color: #fff
 }
@@ -89,7 +91,9 @@ margin:0px 0px 0px 0px;
 
 .d-flex input {
   margin-top: 5px;
-  margin-left: 60px;
+  margin-left: 90px;
+  padding-right:30px;
+  padding-left:10px;
   /* background: transparent; */
   border-radius: 0.4vw; 
   box-shadow: 0 0 .4vw rgb(0, 0, 0), 0 0 0 .15vw transparent;
@@ -97,7 +101,7 @@ margin:0px 0px 0px 0px;
  align-items: center;
 }
 .d-flex{
-  margin:0px 0px 0px 0px;
+  margin:-1px -22px 0px 24px;
 }
 .collapse {
   /* flex-basis: 100%; */
@@ -107,8 +111,9 @@ margin:0px 0px 0px 0px;
 }
 /* carousel styling  */
 
-
-
+#carouselExampleCaptions{
+  width:100%;
+}
 
 
 #d1{
