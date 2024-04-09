@@ -11,9 +11,6 @@
   --text-color: #AC3B61;
   --main-color: #0b2847;
 }
- body{
-  background-color: var(--main-color);
-} 
 
 
 .navbar{
