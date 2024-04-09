@@ -252,13 +252,13 @@ margin:-50px 0px 0px 0px;
 
 .timeline__event--type2 .timeline__event__date {
   
-  background-color: #a2e6b6;
+  background-color: #9e835c;
 
 }
 
 .timeline__event--type3 .timeline__event__date {
 
-  background-color: #a2e6b6;
+  background-color:  #9e835c;
 }
 
 .timeline__event__title {
@@ -293,7 +293,7 @@ margin:-50px 0px 0px 0px;
 
   width:200px;
   height:160px;
-  background-color: #a2e6b6;
+  background-color: #9e835c;
 
     display: flex;
     align-items: center;
