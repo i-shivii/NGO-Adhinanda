@@ -373,9 +373,12 @@ ul.info-ul {
 
 
 /* contact us */
+
+/* contact us */
 .main-contact-container{
   background-color: var(--main-color);
   height:750px;
+  margin-bottom: -100px;
   /* width: 100%; */
   display: flex;
   justify-content: center;
@@ -562,10 +565,12 @@ i {
 /* Style for contact information section */
 .contact-info {
   background: var(--main-color);
+  padding: -13px;
   margin-right: 40px;
   margin-left: 90px;
-  height: 20px;
-  margin-bottom:200px;
+  height: 23rem;
+  margin-bottom:-200px;
+  margin-top:200px;
 }
 
 /* Style for headings */
@@ -618,7 +623,7 @@ li .wrap-icon {
 
 .donate{
   padding: 1.3em 3em;
-  margin:157px 77px 50px 96px;
+  margin:157px 77px 450px 96px;
   font-size: 12px;
   text-transform: uppercase;
   letter-spacing: 2.5px;
@@ -643,7 +648,6 @@ li .wrap-icon {
 .donate:active {
   transform: translateY(-1px);
 }
-
 
 
 
