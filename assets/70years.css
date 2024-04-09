@@ -342,14 +342,11 @@ text-align: center;
 
 /* contactus form */
 
-.contact-section{
-  height:650px;
-  margin-top:300px;
-}
-
+/* contact us */
 .main-contact-container{
   background-color: var(--main-color);
-  height:800px;
+  height:750px;
+  margin-bottom: -100px;
   /* width: 100%; */
   display: flex;
   justify-content: center;
@@ -656,6 +653,7 @@ footer {
   font-size: 12px;
   padding: 10px;
   border-top: 1px solid #FFFFFF;
+  margin-top: 30px;
 }
 
 .footer-middle {
@@ -756,7 +754,6 @@ ul.social-network li {
 .copyright {
   text-align: center;
   padding: 15px 0;
-  margin-top: 30px;
   color: #fff;
   margin-top: 15px;
 }
@@ -789,15 +786,3 @@ li a {
   text-decoration: none; /* Remove underlines from links */
   color: #fff; /* Set link color */
 }
-
-@keyframes fadeIn {
-  from {
-      opacity: 0;
-      transform: translateY(100%);
-  }
-  to {
-      opacity: 1;
-      transform: translateY(0%);
-  }
-}
-

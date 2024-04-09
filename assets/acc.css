@@ -158,9 +158,10 @@ nav {
 
 /* contact us */
 
+/* contact us */
 .main-contact-container{
   background-color: var(--main-color);
-  height:800px;
+  height:750px;
   margin-bottom: -100px;
   /* width: 100%; */
   display: flex;
@@ -601,5 +602,3 @@ li a {
   text-decoration: none; /* Remove underlines from links */
   color: #fff; /* Set link color */
 }
-
-

@@ -387,6 +387,8 @@ ul.info-ul {
 
 
 /* contact us */
+
+/* contact us */
 .main-contact-container{
   background-color: var(--main-color);
   height:750px;
@@ -399,13 +401,6 @@ ul.info-ul {
 }
 .contact-section h1 {
     margin-left: 100px;
-    color: var(--text-color);
-    padding-right: 60px;
-    font-size: 4rem;
-    text-shadow:0px 0px 4px rgb(12, 0, 5) ;
-    margin-left:40px;
-    padding-left:100px;
-    margin-top: -150px;
 
 }
  
@@ -587,7 +582,6 @@ i {
   padding: -13px;
   margin-right: 40px;
   margin-left: 90px;
-  margin-top: 60px;
   height: 23rem;
   margin-bottom:-200px;
   margin-top:200px;
@@ -597,7 +591,6 @@ i {
 .contact-info h5 {
   color: var(--text-color);
   font-size: 2em;
-
   margin-bottom: 30px;
   
 }
@@ -669,8 +662,6 @@ li .wrap-icon {
 .donate:active {
   transform: translateY(-1px);
 }
-
-
 
 
 
