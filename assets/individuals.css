@@ -12,7 +12,17 @@
   --main-color: #0b2847;
 }
 body{
-  width:100%;
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+
+}
+html{
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
 }
 
 .navbar{
@@ -236,7 +246,6 @@ ul.info-ul {
 }
 .what-we-offer h1 {
    margin-top: 40px;
-    font-style: italic;
     padding-bottom: 5px;
     margin-bottom: 20px;
     color: #fffdfd;
