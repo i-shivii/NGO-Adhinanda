@@ -13,6 +13,10 @@ body{
   width:100%;
 }
 
+html{
+  width: 100%;
+
+}
 
 .navbar{
   background:var(--main-color);
@@ -98,6 +102,8 @@ nav {
   flex-grow: -5 ;
 }
 
+/* heading */
+
 .image{
   position: relative;
   overflow: hidden;
@@ -113,8 +119,8 @@ nav {
   position: absolute;
   width: 60%;
   height: 80px;
-  top: 100%;
-  left: 50%;
+  top: 670px;
+  left: 50% ;
   transform: translate(-50%, -50%);
   text-align: center;
   z-index:1;
@@ -125,9 +131,8 @@ nav {
   color: #ffff;
   background: var(--main-color);
   padding: 15px;
-  margin-top: 130px;
+  margin-top: 115px;
 }
-
 
 /* gallery */
 .gallery {
@@ -135,9 +140,7 @@ nav {
   --g: 10px;   
   --f: 1.5;    
   display: grid;
-  margin-top: 180px;
-  margin-left: 100px;
-  margin-bottom: 50px;
+  margin:5%;
   gap: var(--g);
   width: calc(8*var(--s) + 10*var(--g));
   aspect-ratio: 1;

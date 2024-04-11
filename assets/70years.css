@@ -114,37 +114,31 @@ nav {
   position: relative;
   overflow: hidden;
   padding-top: -30px;
-  
 }
 
 .image img {
   height: 780px;
-  width: 100%
-  
-
+  width: 100%;
 }
 
 .header{
   position: absolute;
-  width: 60%;
+  width: 50%;
   height: 80px;
-  top: 90%;
-  left: 50%;
+  top: 670px;
+  left: 50% ;
   transform: translate(-50%, -50%);
   text-align: center;
   z-index:1;
   opacity: 0.8;
-  
 }
 
 .header h1{
   color: #ffff;
   background: var(--main-color);
   padding: 15px;
-  margin-top: 190px;
-
+  margin-top: 115px;
 }
-
 
 .milestone h3{
  
@@ -154,15 +148,16 @@ nav {
 }
 .milestone {
  width:100%;
- height:200px;
+ height:100%;
  /* background-color: #0b2847; */
   margin: 90px 0px 0px 0px;
   padding: 0px 0px 0px 0px ;
 text-align: center;
-  
+
 }
 
 .timeline{
+  padding: 30px;
   margin:-30px -21px 0px -7px;
 }
 
