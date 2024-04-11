@@ -125,7 +125,6 @@ nav {
   position: relative;
   overflow: hidden;
   padding-top: -30px;
-  
 }
 
 .image img {
@@ -135,15 +134,14 @@ nav {
 
 .header{
   position: absolute;
-  width: 60%;
+  width: 50%;
   height: 80px;
-  top: 100%;
-  left: 50%;
+  top: 670px;
+  left: 50% ;
   transform: translate(-50%, -50%);
   text-align: center;
   z-index:1;
   opacity: 0.8;
-  
 }
 
 .header h1{
@@ -151,40 +149,41 @@ nav {
   background: var(--main-color);
   padding: 15px;
   margin-top: 115px;
-
 }
 
 .main-container {
     display: flex;
     flex-wrap: wrap;
-    height: 60vh;
+    height: auto;
+    align-items: flex-start;
     background: #fff;
-  }
-  
-  .container-one {
+    margin: 20px;
+}
+
+.container-one{
     color: rgb(7, 1, 57);
-    padding: 10%;
-    font-weight: bolder;
-    flex: 1;
+    padding:10%;
+    font-weight : bolder;
+    flex:1;
     box-sizing: border-box;
-    /* Removed display: inline; for better responsiveness */
+    display: inline;
+    box-sizing: border-box;
     font-size: 25px;
     padding-right: 50px;
-    margin-left: 60px;
-  }
-  
-  .container-two {
+    text-align: justify;
+}
+
+.container-two{
     font-size: 20px;
     color: black;
     padding: 5%;
     margin: 5%;
-    margin-bottom: 20px;
-     
+    display:inline;
     flex: 1;
-    box-sizing: border-box;
+    box-sizing: border-box; 
     text-align: justify;
-  }
-  
+}
+
 /* section 2 */
 
 
@@ -192,8 +191,9 @@ nav {
   background-color: rgb(17, 60, 95);
   background-image: url(https://images.unsplash.com/photo-1528693404014-b13ebe6e723e?q=80&w=1933&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
   background-size: cover;
-  height: 670px;
+  height: auto;
   width: 100%;
+  padding-bottom: 20px;
   padding-top: 50px;
   padding-left: 100px;
   padding-right: 100px;
@@ -201,8 +201,10 @@ nav {
   background-blend-mode: multiply;
   color: #fff;
 }
+
 .info-container h1{
-  margin-left: 340px;
+  margin-bottom: 30px;
+  margin-top: 20px;
   color: #fff;
 }
 
@@ -224,19 +226,16 @@ ul.info-ul {
 	box-sizing: border-box;
 }
 .what-we-offer h1 {
-   margin-top: 40px;
-    padding-bottom: 5px;
-    margin-bottom: 20px;
-    color: #fffdfd;
-    background: var(--main-color);
-    align-items: center;
-    padding-bottom: 15px;
-    padding-left: 400px;
-    margin-top: 30px;
-    opacity: 0.8;
-     
-  
+  margin-top: 40px;
+  color: #fffdfd;
+  width: 100%;
+  background: var(--main-color);
+  align-items: center;
+  padding-bottom: 15px;
+  padding-left: 25%;
+  left: 55%;
 }
+
 .what-we-offer p {
 	margin-top: 20px;
   margin-left: 20px;
@@ -307,14 +306,16 @@ ul.info-ul {
   padding-top: 20px;
 }
 #cardheading{
-    color: #fffdfd;
-    background: var(--main-color);
-    align-items: center;
-    padding-bottom: 15px;
-    padding-left: 460px;
-    margin-top: 30px;
-    opacity: 0.8;
+  margin-top: 40px;
+  color: #fffdfd;
+  width: 100%;
+  background: var(--main-color);
+  align-items: center;
+  padding-bottom: 15px;
+  padding-left: 35%;
+  left: 55%;
 }
+
 .card-outer{
     display:flex;
     flex-wrap: wrap;
