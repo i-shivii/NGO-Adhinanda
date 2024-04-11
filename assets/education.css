@@ -104,24 +104,23 @@ nav {
   margin-left: 90px;
   padding-right:30px;
   padding-left:10px;
-  /* background: transparent; */
   border-radius: 0.4vw; 
   box-shadow: 0 0 .4vw rgb(0, 0, 0), 0 0 0 .15vw transparent;
- justify-content: center;
- align-items: center;
+  justify-content: center;
+  align-items: center;
 }
 .d-flex{
   margin:-1px -22px 0px 24px;
 }
 .collapse {
-  /* flex-basis: 100%; */
   flex-grow: -5 ;
-  /* align-items: center; */
-
-}/* heading */
+  }
+  
+  /* heading */
 
 .image{
   position: relative;
+  width: 100%;
   overflow: hidden;
   padding-top: -30px;
   
@@ -166,7 +165,6 @@ nav {
     font-weight: bolder;
     flex: 1;
     box-sizing: border-box;
-    /* Removed display: inline; for better responsiveness */
     font-size: 25px;
     padding-right: 50px;
     margin-left: 60px;
@@ -178,7 +176,6 @@ nav {
     padding: 5%;
     margin: 5%;
     margin-bottom: 20px;
-     
     flex: 1;
     box-sizing: border-box;
     text-align: justify;
@@ -194,11 +191,9 @@ nav {
   
   .intro-list li {
     margin-bottom: 10px;  
-     
     padding-left: 20px;  
   }
   
-   
   .intro-list h5 {
     color: rgb(7, 1, 57);
     margin-right: 15px;
@@ -220,6 +215,7 @@ nav {
   background-blend-mode: multiply;
   color: #fff;
 }
+
 .info-container h1{
   margin-left: 340px;
   color: #fff;
@@ -232,8 +228,6 @@ nav {
 }
 
 /* section3 */
-@import url("https://fonts.googleapis.com/css?family=Montserrat:400,700");
-
 * {
 	box-sizing: border-box;
 }
@@ -248,7 +242,7 @@ nav {
     padding-left: 550px;
     margin-top: 30px;
     opacity: 0.8;
-     
+    
   
 }
 .what-we-offer p {
@@ -320,6 +314,7 @@ nav {
 #card{
   padding-top: 20px;
 }
+
 #cardheading{
     color: #fffdfd;
     background: var(--main-color);
@@ -329,12 +324,14 @@ nav {
     margin-top: 30px;
     opacity: 0.8;
 }
+
 .card-outer{
     display:flex;
     flex-wrap: wrap;
     margin-left:100px;
     margin-top:30px;
 }
+
 .card {
     position: relative;
     width: 300px;
@@ -425,8 +422,8 @@ nav {
   display: flex;
   justify-content: center;
   align-items: center;
-
 }
+
 .contact-section h1 {
     margin-left: 100px;
     color: var(--text-color);
@@ -436,9 +433,8 @@ nav {
     margin-left:40px;
     padding-left:100px;
     margin-top: -150px;
-
 }
- 
+
 .info p {
   text-align:center;
   color: #111010;
@@ -463,6 +459,7 @@ nav {
   margin-top:-100px;
   margin-bottom:50px;
 }
+
 .contactform h1{
   color: var(--text-color);
   padding-right: 60px;
@@ -473,6 +470,7 @@ nav {
   margin-left:40px;
   padding-left:100px;
 }
+
 .form-group p span {
   color: #F00;
 }
