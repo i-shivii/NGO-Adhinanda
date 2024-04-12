@@ -162,7 +162,7 @@ margin:0vw 0vw 0vw 0vw;
 
 .t1{
   display: flex;
-  flex-wrap: wrap;
+  /* flex-wrap: wrap; */
   margin:44px -59px 787px 48px;
   height:300px;
 }.t1 p{
@@ -801,4 +801,20 @@ li {
 li a {
   text-decoration: none; /* Remove underlines from links */
   color: #fff; /* Set link color */
+}
+
+
+@media (max-width:600px) {
+
+  .image img{
+    width:200%;
+    height:900px;
+  }
+  body{
+    overflow-x: hidden;
+  }
+
+   .navbar{
+    height:150px;
+   }
 }
