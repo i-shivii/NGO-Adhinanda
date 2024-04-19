@@ -942,7 +942,7 @@ li a {
 }
 
 } */
-@media (min-width: 1024px) and (max-width: 1493px) {
+@media (min-width: 1100px) and (max-width: 1535px) {
 
   .navbar{
   
@@ -1034,13 +1034,13 @@ li a {
     width:100%;
   }
   .grid-container{
-    column-gap: 4rem;
-    width:10rem;
-    margin-left:9rem;
+    column-gap: 2rem;
+    width: 2rem;
+    margin-left: -4rem;
   }
   .grid-section h2{
     font-size: 2.6rem;
-    min-margin: 4rem;
+    margin-left: 30rem;
    
   }
   .grid-section h3{
