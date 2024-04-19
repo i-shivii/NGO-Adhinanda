@@ -437,6 +437,7 @@ nav {
   margin-left: 100px;
   padding-left:20px;
 }
+
 .form-group p span {
   color: #F00;
 }
@@ -860,8 +861,6 @@ li a {
     height: auto;
   }
 
-  .info-container {
-  }
 
   .what-we-hieght h1 {
     padding-left: 25%;
