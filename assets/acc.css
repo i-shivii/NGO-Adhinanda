@@ -141,6 +141,9 @@ nav {
   --g: 10px;   
   --f: 1.5;    
   margin-left: 5rem;
+  margin-right: 5rem;
+  margin-bottom: 5rem;
+
   display: grid;
   gap: var(--g);
   width: calc(8*var(--s) + 10*var(--g));
