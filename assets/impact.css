@@ -38,7 +38,7 @@ nav {
 .navbar img{
   width: 114px;
   height: 107px;
-  margin: -3px -1px -2px 19px;
+  margin-top:2rem;
 }
 
 .navbar-nav {
@@ -744,7 +744,7 @@ li a {
 
 
 /* //phones */
-@media (max-width: 425px) 
+@media (max-width: 426px) 
 {
  
   html{
@@ -774,8 +774,8 @@ li a {
     }
     .navbar-toggler{
    
-      margin-left: 32rem;
-    margin-top: -5rem;
+      margin-left: 27rem;
+    margin-top: -6rem;
       position: static;
       border: 4px solid white;
      
@@ -899,10 +899,11 @@ li a {
   width: 40rem;
   height: 11rem;
   margin-left: -1vh;
+  margin-right: -1rem;
 }
 
 .timeline__event__description{
-  margin-right: 11rem;
+  margin-right: 15rem;
   /* margin-top: -1vh; */
   margin-left: -1rem;
   text-align: justify;
@@ -911,9 +912,10 @@ li a {
 }
 
 .timeline__event__title{
-  margin-top:-2vh;
-  font-size: 2.5vh;
+  margin-top:-1vh;
+  font-size: 2vh;
   margin-left:-1vh;
+  margin-right: 10rem;
 
 }
 
