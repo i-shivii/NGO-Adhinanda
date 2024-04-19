@@ -871,8 +871,69 @@ li a {
   color: #fff; /* Set link color */
 }
 
+
+
 /* Media Query */
 @media (max-width: 425px) {
+  html{
+    font-size:80%;
+  }
+  .navbar img{
+    width: 7rem;
+    height: 7rem;
+    margin-top: 1rem;
+    margin-left: 1rem;
+  
+   
+    }
+    .navbar{
+      height:7rem;
+    background-color:#0b2847;
+    
+    }
+    .navbar-toggler{
+      
+      margin-left: 27rem;
+      margin-top: -6rem;
+      position: static;
+      border: 4px solid white;
+     
+     
+    }
+  
+    .navbar-nav {
+      flex-direction: row;
+      margin-left: 2vh;
+      /* background-color: #0b2847; */
+    }
+  
+    .nav-item {
+      margin-right: 1.2rem;
+    }
+  
+    
+    .dropdown-menu {
+      position: static !important;
+      transform: none !important;
+      box-shadow: none;
+      border: none;
+      margin-left:-14vh;
+ 
+    }
+    .nav-item.dropdown .dropdown-menu {
+      margin-top: 2.5rem; 
+      
+    }
+  
+    .dropdown-menu a {
+      padding: 0.3rem 1rem;
+    }
+ 
+  
+    .form-control ,.btnform{
+      display: none;
+    }
+ 
   .image img {
     height: 380px;
     width: 100%;
@@ -889,18 +950,21 @@ li a {
     margin-top: 0rem;
     display: flex;
     flex-direction: column;
+    
   }
   .main-contact-container {
     height: auto;
   }
 
-
+.content,.info-container h4 {
+  font-size:1.7rem;
+}
   .what-we-hieght h1 {
-    padding-left: 25%;
+    padding-left: 35%;
   }
 
   #cardheading {
-    padding-left: 5%;
+    padding-left: 22%;
   } 
   .card-outer {
     margin-left: 8%;
@@ -949,15 +1013,62 @@ li a {
 
 
 @media (min-width:1024px) and (max-width:1535px) {
+
+
+  .navbar{
+  
+    height:7rem;
+    width:100%;
+  }
+  
+
+  
+  .navbar img{
+    width: 8rem;
+    height: 7rem;
+    margin-left: 2rem;
+    margin-top: 1rem;
+  }
+  
+  .navbar-nav {
+    justify-content: end;
+    margin-right: 2rem;
+    /* margin-left: 60px; */
+    font-size:1.2rem;
+    gap:2rem;
+    margin-top:1rem;
+  }
+  
+ 
+  
+
+  
+  .btn-success{
+    /* margin-left: 0rem; */
+    margin-top: 3rem;
+    margin-bottom: 1rem;
+  }
+  
+  .btnform {
+ 
+    /* margin-top:rem; */
+    width: 6rem;
+ 
+  }
+  
+  .d-flex{
+    margin-top:0rem;
+  }
+
   .main-contact-container{
     height: 810px;
   }
   #cardheading {
-    padding-left: 30%;
+    padding-left: 35%;
   } 
 
   .card-outer {
-    margin-left: 6%;
+    margin-left: 7%;
   }
 }
 
