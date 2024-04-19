@@ -1,3 +1,4 @@
+
 @import url('https://fonts.googleapis.com/css2?family=Fira+Sans+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 @import url("https://fonts.googleapis.com/css?family=Poppins:400,400i,700");
 
@@ -9,32 +10,27 @@
   --main-color: #0b2847;
 }
 
-body{
-  width: 100%;
-  height: 100%;
-  margin: 0;
-  padding: 0;
-
-}
-html{
-  width: 100%;
-  height: 100%;
-  margin: 0;
-  padding: 0;
+html,body{
+  overflow-x: hidden;
+  width:100%;
+  height:100%;
+  padding:0px;
+  margin:0px;
+  font-size:100%;
 }
 
 .navbar{
   background:var(--main-color);
   height:105px;
   width:100%;
-
 }
+
 .navbar p{
 margin-top: 80px;
 font-size: 150%;
 margin-left:-150px;
-}
 
+}
 nav { 
   color:var(--bg-color); 
 }
@@ -121,10 +117,10 @@ nav {
 }
 
 .header{
-  position: absolute;
+  position: relative;
   width: 50%;
   height: 80px;
-  top: 670px;
+  top: -93px;
   left: 50% ;
   transform: translate(-50%, -50%);
   text-align: center;
@@ -136,13 +132,13 @@ nav {
   color: #ffff;
   background: var(--main-color);
   padding: 15px;
-  margin-top: 115px;
+  margin-top: 100px;
 }
 
 /*people*/
 .people-main{
     margin-left:6%;
-    margin-top:10%;
+    margin-top:5%;
     margin-bottom: 5%;
 }
 
@@ -217,15 +213,14 @@ nav {
   background-color: var(--main-color);
   height:750px;
   margin-bottom: -100px;
+  width: auto; 
+  padding: 20px;
   display: flex;
   justify-content: center;
   align-items: center;
 
 }
-.contact-section h1 {
-    margin-left: 100px;
-}
-
+ 
 .info p {
   text-align:center;
   color: #111010;
@@ -238,7 +233,6 @@ nav {
 .info i {
   color:#F6AA93;
 }
-
 .contactform {
   border-radius: 5px;
   max-width:700px;
@@ -250,16 +244,15 @@ nav {
   margin-top:-100px;
   margin-bottom:50px;
 }
-
 .contactform h1{
   color: var(--text-color);
-  padding-right: 60px;
+  padding-right: 20px;
   font-size: 4rem;
   text-shadow:0px 0px 4px rgb(12, 0, 5) ;
   margin-top:20px;
   margin-bottom:20px;
-  margin-left:40px;
-  padding-left:100px;
+  margin-left: 100px;
+  padding-left:20px;
 }
 
 .form-group p span {
@@ -342,7 +335,7 @@ i {
   cursor: pointer;
   margin-top: 40px;
   font-size: 18px;
-  margin-left:150px;
+  margin-left:25%;
 }
 
 .leftcontact {
@@ -412,15 +405,17 @@ i {
   margin-right: 40px;
   margin-left: 90px;
   height: 23rem;
-  margin-bottom:-200px;
-  margin-top:200px;
+  margin-top: -35%;
 }
 
 /* Style for headings */
 .contact-info h5 {
   color: var(--text-color);
-  font-size: 2em;
-  margin-bottom: 30px;
+  text-shadow: 0px 0px 4px rgb(12, 0, 5);
+  font-size: 3.5em;
+  margin-bottom: 70px;
+  padding-left: 30%;
+  
 }
 
 /* Style for paragraphs */
@@ -464,8 +459,9 @@ li .wrap-icon {
 }
 
 .donate{
-  padding: 1.3em 3em;
-  margin:157px 77px 450px 96px;
+  padding: 1.7em 3em;
+  margin-left: 40%;
+  margin-top: 18%;
   font-size: 12px;
   text-transform: uppercase;
   letter-spacing: 2.5px;
@@ -491,6 +487,8 @@ li .wrap-icon {
   transform: translateY(-1px);
 }
 
+
+
 /* footer*/
 footer {
   background: var(--text-color);
@@ -510,17 +508,17 @@ footer {
   transition-duration: 0.2s;
   justify-content: center !important;
   padding: 30px;
+  /* padding-top:0%; */
+  
 }
 
 .footer a:hover {
   color: var(--main-color);
   text-decoration: none;
 }
-
 .copyrightline{
   margin-left: 40px;
 }
-
 .copy {
   font-size: 12px;
   padding: 10px;
@@ -538,6 +536,7 @@ ul.list-unstyled li a {
   text-decoration: none;
 }
 
+/*SOCİAL İCONS*/
 /* footer social icons */
 
 ul.social-network {
@@ -650,9 +649,100 @@ ul {
 
 li {
   display: flex;
+  /* text-align: -webkit-match-parent; */
 }
 
 li a {
-  text-decoration: none; 
-  color: #fff;  
+  text-decoration: none; /* Remove underlines from links */
+  color: #fff; /* Set link color */
+}
+
+/* Media Query */
+@media (max-width: 425px) {
+  .image img {
+    height: 380px;
+    width: 100%;
+  }
+
+  .header h1 {
+    margin-top: 14vh;
+    width: 100%;
+    position: absolute;
+  }
+
+  .people-main {
+    margin-left: 3%;
+    margin-right: 3%;
+    margin-top: 3%;
+    margin-bottom: 3%;
+}
+
+.people {
+    width: auto; /* Adjust width as needed */
+    height: auto; /* Adjust height as needed */
+    padding: 20px; /* Add padding for better spacing */
+}
+
+.people span {
+    font-size: 1.5em; /* Adjust font size */
+}
+
+.people .info {
+    font-size: 1em; /* Adjust font size */
+}
+
+.people .img {
+    width: 100%; /* Adjust width to fill container */
+    height: auto; /* Maintain aspect ratio */
+    margin: 0; /* Remove margins */
+}
+
+.people .share {
+    padding-right: 0; /* Remove right padding */
+    justify-content: space-around; /* Center items with space around */
+    gap:0rem;
+}
+
+  .contactform {
+    margin-left: 0;
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+  
+  .main-contact-container{
+      margin-bottom: -6%;
+      height: 70rem;
+      width: auto;
+      padding: 0px;
+      display: flex;
+      flex-direction: column;
+  }
+  
+  
+  .contact-section h1 {
+    margin-left: 0;
+    text-align: center;
+    font-size: 2rem;
+  }
+
+  .info p {
+    margin-left: 0;
+    text-align: center;
+  }
+
+  .contact-info h5 {
+      font-size: 2rem;
+      margin-bottom: 30px;
+  }
+  .contact-info {
+    margin-right: 40px;
+    margin-left: 28px;
+    height: 25rem;
+    margin-top: 48px;
+    margin-bottom: 80px;
+  }
+  .donate {
+    margin: 25px -13px 34px 94px;
+  }
+
 }
