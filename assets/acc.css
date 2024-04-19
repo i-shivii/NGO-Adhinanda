@@ -140,8 +140,8 @@ nav {
   --s: 150px;  
   --g: 10px;   
   --f: 1.5;    
+  margin-left: 5rem;
   display: grid;
-  margin:5%;
   gap: var(--g);
   width: calc(8*var(--s) + 10*var(--g));
   aspect-ratio: 1;
