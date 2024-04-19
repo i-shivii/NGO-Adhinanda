@@ -923,8 +923,7 @@ li a {
   margin-bottom: 0;
 }
 
-<<<<<<< HEAD
-=======
+
 .main-contact-container{
     flex-direction: column;
       height: 75rem;
@@ -979,7 +978,7 @@ li a {
 }
 
 } */
->>>>>>> b8bd6d9c8b76d5106802e13dd7e32372972bcc44
+
 @media (min-width: 1100px) and (max-width: 1535px) {
 
   .navbar{
