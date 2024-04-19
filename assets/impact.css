@@ -16,6 +16,10 @@
   width:100%;
 }
 
+body{
+  overflow-x: hidden;
+  width:100%;
+}
 .navbar p{
 margin-top: 80px;
 font-size: 150%;
@@ -719,4 +723,13 @@ li {
 li a {
   text-decoration: none;  
   color: #fff;  
+}
+
+@media ( max-width:600px)
+{
+  nav img{
+
+    
+  }
+
 }
