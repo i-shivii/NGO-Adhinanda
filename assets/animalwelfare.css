@@ -291,6 +291,24 @@ nav {
 }
 
 
+@media screen and (min-width: 768px) {
+  .what-we-offer {
+    padding: 0 2em;
+  }
+  .what-we-offer-column {
+    flex: 0 50%;
+    max-width: 50%;
+  }
+}
+@media screen and (min-width: 1000px) {
+  .what-we-offer{
+    padding: 1em 3em;
+  }
+  .what-we-offer-column {
+    flex: 0 0 33.33%;
+    max-width: 33.33%;
+  }
+}
 
 /* card */
 #card{
@@ -986,7 +1004,7 @@ li a {
   }
 }
 
-
+/* 
 
 @media (min-width:1024px) and (max-width:1535px) {
 
@@ -1008,7 +1026,7 @@ li a {
   .navbar-nav {
     justify-content: end;
     margin-right: 2rem;
-    /* margin-left: 60px; */
+  
     font-size:1.2rem;
     gap:2rem;
     margin-top:1rem;
@@ -1019,14 +1037,14 @@ li a {
 
   
   .btn-success{
-    /* margin-left: 0rem; */
+    
     margin-top: 3rem;
     margin-bottom: 1rem;
   }
   
   .btnform {
  
-    /* margin-top:rem; */
+    
     width: 6rem;
  
   }
@@ -1049,4 +1067,4 @@ li a {
 }
 
   
-
+ */

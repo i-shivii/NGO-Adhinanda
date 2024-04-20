@@ -210,35 +210,32 @@ margin:0px 0px 0px 0px;
  
 
 .sec-hexagon{
-  width: 100%;
-  height: 371px;
-  margin-top: -100px;
-  margin-bottom: 158px;
-    /* background-color:#0b2847; */
+width:100%;
+height:30rem;
+
 
 }
 .sec-hexagon h2{
   font-size: 350%;
-  margin: 100px 0px 0px 470px;
-  font:bolder;
+  margin-top:17rem;
+  margin-left: 40rem;
+ margin-bottom: 3rem;
 
 }
 .main-hexagon{
-    width: 100%; /* Adjust as needed */
-    height: 500px; /* Height is approximately 115.47% of the width for a perfect hexagon */
-    position: relative;
-    margin:-70px 0px 0px -37px;
-    padding: 0px 0px 0px 0px;
+    width: 40rem; /* Adjust as needed */
+ display: grid;
+ grid-template-columns: 1fr 1fr 1fr 1fr;
+ column-gap:2rem;
+ margin-left:6rem;
 }
-.hex1{
-  width: 212px;
-  height: 232px;
+#hex1{
+  width: 15rem;
+  height: 17rem;
     background-color: #87CEEB; 
-    position: absolute;
+    position: relative;
     clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
-    margin: 100px 0px 0px 119px;
-    padding: 0px 0px 0px 0px;
-   
+
 }
 .main-hexagon p{
   color:black;
@@ -250,80 +247,73 @@ margin:0px 0px 0px 0px;
   color:black;
   padding-top:0px
 }
-.hex2{
-  width: 212px;
-  height: 232px;
+#hex2{
+  width: 15rem;
+  height: 17rem;
   background-color: #E9967A; /* Change color as desired */
-  position: absolute;
+  position: relative;
   clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
-  margin: 100px 0px 0px 411px;
-  padding: 0px 0px 0px 0px;
-}
-.hex3{
-  width: 212px;
-  height: 232px;
-  background-color: #a2abff; /* Change color as desired */
-  position: absolute;
-  clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
-  margin: 100px 0px 0px 700px;
-  padding: 0px 0px 0px 0px;
-}
-.hex4{
-  width: 212px;
-  height: 232px;
-  background-color: #DB7093; /* Change color as desired */
-  position: absolute;
-  clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
-  margin: 100px 0px 0px 994px;
-  padding: 0px 0px 0px 0px;
-}
-.hex5{
-  width: 212px;
-  height: 232px;
-  background-color:#F0E68C;/* Change color as desired */
-  position: absolute;
-  clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
-  margin: 100px 0px 0px 1275px;
-  padding: 0px 0px 0px 0px;
  
 }
+#hex3{
+  width: 15rem;
+  height: 17rem;
+  background-color: #a2abff; /* Change color as desired */
+  position: relative;
+  clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+ 
+}
+#hex4{
+  width: 15rem;
+  height: 17rem;
+  background-color: #DB7093; /* Change color as desired */
+  position: relative;
+  clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+
+}
+
 
 /* ................................ */
 /* pictures */
 
 .picture{
-  margin:0px 0px 0px 0px;
+  margin: 0px 0px 0px 0px;
   background-color: #0b2847;
-  width:100%;
-  height:350%;
+  width: 100%;
+  height: 130rem;
 }
 
 .pic{
-  margin-top:-200px;
+  margin-top:12rem;
 
 }
 .pic h2{
-  font-size: 34px;
-  margin: 14px 222px 0px 225px;
+  font-size: 2.6rem;
+  margin-top: 11rem;
+  margin-left: 12rem;
   text-align: center;
-  color:#ffffff;
-  padding: 43px 0px 0px 0px;
+  color: #ffffff;
+  margin-right: 8rem;
+  padding-top:2rem;
 }
 
 
 .pic1,.pic2,.pic3,.pic4,.pic5,.pic6,.pic7{
-  margin-top: 30px;
+  margin-top: 5rem;
 }
 .pic1 h3{
-  margin: -242px 0px 0px 434px;
-  font-size: 200%;
+  margin-left:3rem;
+  margin-top:1rem;
+  margin-bottom:2rem;
+  font-size: 2rem;
   color: #AC3B61;
 }
 
 .pic1 img{
-  margin: 49px 0px 0px 67px;
-  width: 317px;
-  height: 226px;
+  margin-top:2rem;
+  margin-left:2rem;
+  width: 10rem;
+  height: 10rem;
 }
 .pic1 p{
   margin: 16px 89px 0px 429px;
@@ -335,15 +325,18 @@ margin:0px 0px 0px 0px;
 
 
 .pic2  h3{
-  margin: -277px 0px 0px 400px;
-  font-size: 200%;
+  margin-left:3rem;
+  margin-top:1rem;
+  margin-bottom:2rem;
+  font-size: 2rem;
   color: #AC3B61;
 
 }
 .pic2 img{
-margin:90px 15px 0px 1116px;
-width: 317px;
-height: 226px;
+  margin-top:2rem;
+  margin-left:2rem;
+  width: 10rem;
+  height: 10rem;
 }
 .pic2  p{
   margin: 15px 444px 0px 106px;
@@ -356,15 +349,18 @@ height: 226px;
 
 
 .pic3 h3{
-  margin: -277px 0px 0px 447px;
-  font-size: 200%;
+  margin-left:3rem;
+  margin-top:1rem;
+  margin-bottom:2rem;
+  font-size: 2rem;
   color: #AC3B61;
 
 }
 .pic3 img{
-margin:85px 0px 0px 67px;
-width: 317px;
-height: 226px;
+  margin-top:2rem;
+  margin-left:2rem;
+  width: 10rem;
+  height: 10rem;
 }
 .pic3  p{
   margin: 3px 88px 0px 447px;
@@ -378,15 +374,18 @@ height: 226px;
 
 
 .pic4  h3{
-  margin:-246px 0px 0px 466px;
-  font-size: 200%;
+  margin-left:3rem;
+  margin-top:1rem;
+  margin-bottom:2rem;
+  font-size: 2rem;
   color: #AC3B61;
 
 }
 .pic4 img{
-margin:44px 0px 0px 1125px;
-width: 317px;
-height: 226px;
+  margin-top:2rem;
+  margin-left:2rem;
+  width: 10rem;
+  height: 10rem;
 }
 .pic4  p{
   margin: 8px 440px 0px 100px;
@@ -400,15 +399,18 @@ height: 226px;
 
 
 .pic5 h3{
-  margin: -266px 69px 0px 424px;
-  font-size: 200%;
+  margin-left:3rem;
+  margin-top:1rem;
+  margin-bottom:2rem;
+  font-size: 2rem;
   color: #AC3B61;
 
 }
 .pic5 img{
-margin:36px 0px 0px 67px;
-width: 317px;
-height: 226px;
+  margin-top:2rem;
+  margin-left:2rem;
+  width: 10rem;
+  height: 10rem;
 }
 .pic5 p{
   margin: 12px 65px 0px 426px;
@@ -422,15 +424,18 @@ height: 226px;
 
 
 .pic6 h3{
-  margin: -250px 0px 0px 654px;
-  font-size: 200%;
+  margin-left:3rem;
+  margin-top:1rem;
+  margin-bottom:2rem;
+  font-size: 2rem;
   color: #AC3B61;
 
 }
 .pic6 img{
-margin:50px 0px 0px 1127px;
-width: 317px;
-height: 226px;
+  margin-top:2rem;
+  margin-left:2rem;
+  width: 10rem;
+  height: 10rem;
 }
 .pic6 p{
   margin: 5px 444px 0px 95px;
@@ -442,15 +447,18 @@ height: 226px;
 
 
 .pic7 h3{
-  margin: -264px 0px 0px 435px;
-  font-size: 200%;
+  margin-left:3rem;
+  margin-top:1rem;
+  margin-bottom:2rem;
+  font-size: 2rem;
   color: #AC3B61;
 
 }
 .pic7 img{
-margin:48px 0px 0px 67px;
-width: 317px;
-height: 226px;
+  margin-top:2rem;
+  margin-left:2rem;
+  width: 10rem;
+  height: 10rem;
 
 
 }
@@ -915,18 +923,20 @@ li a {
 /* Media Query */
 @media (max-width: 426px) {
 /* navbar */
+
+
+
   html{
     font-size:80%;
   }
   .navbar img{
-    width: 6.5rem;
+    width: 6.8rem;
     height: 6.6rem;
-    margin-top: -1rem;
+    margin-top: -0.4rem;
     margin-left: 1rem;
-  
-  
    
     }
+    
     .navbar{
       height:7rem;
     background-color:#0b2847;
@@ -993,40 +1003,60 @@ li a {
     display: flex;
     flex-direction: column;
   }
-  .main-contact-container {
-    height: auto;
+  .main-hexagon{
+    display:grid;
+    grid-template-columns: repeat(auto-fill,minmax(150px,1fr));
+    /* gap:3.1rem; */
+    width:100%;
+    margin-left: 3rem;
+  }
+  .sec-hexagon{
+    margin-top:-2rem;
+    height:37rem;
   }
 
-  /* image */
-  .info-sec {
-    height: auto;  
-    margin: 0;  
+  .contactform {
+    margin-left: 0;
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+  
+  .main-contact-container{
+      margin-bottom: -6%;
+      width: auto;
+      padding: 0px;
+      display: flex;
+      flex-direction: column;
+  }
+  
+  
+  .contact-section h1 {
+    margin-left: 0;
+    text-align: center;
+    font-size: 2rem;
   }
 
-  .info-container {
-    height: auto; 
-    padding-top: 20px; 
+  .info p {
+    margin-left: 0;
+    text-align: center;
   }
 
-  .info-container h2 {
-    font-size: 150%;  
-    margin: 0 auto; 
-    max-width: 80%;  
-    text-align: center;  
+  .contact-info h5 {
+      font-size: 2rem;
+      margin-bottom: 30px;
   }
-
-  .info-container ul {
-    font-size: 18px; 
-    margin: 20px auto;  
-    padding: 0;  
-    max-width: 80%;  
+  .contact-info {
+    margin-right: 40px;
+    margin-left: 28px;
+    height: 25rem;
+    margin-top: 48px;
+    margin-bottom: 80px;
   }
-
-  .info-container i {
-    margin-right: 5px; 
+  .donate {
+    margin: 25px -13px 34px 94px;
   }
-
-  /* pictures */
+  
+/* pictures */
   .picture {
     height: auto;  
     padding-bottom: 50px;  
@@ -1082,88 +1112,4 @@ li a {
     max-width: 80%; 
   }
 
-
-  /* hexagon */
-  @media (max-width: 425px) {
-    .sec-hexagon {
-      height: auto;  
-      margin-top: -50px;  
-      margin-bottom: 50px;  
-    }
-  
-    .sec-hexagon h2 {
-      font-size: 200%;  
-      margin: 50px auto;  
-      max-width: 80%;  
-      text-align: center;  
-    }
-  
-    .main-hexagon {
-      height: auto;  
-      margin: 0 auto;  
-      padding: 0;  
-    }
-  
-    .hex1,
-    .hex2,
-    .hex3,
-    .hex4,
-    .hex5 {
-      width: 150px;  
-      height: 150px;  
-      margin: 50px auto;  
-      clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
-    }
-  
-    .main-hexagon p {
-      margin-top: 20px;  
-      font-size: 16px;  
-      color: black;  
-      text-align: center;  
-    }
-  }
-  
-
-  /* contact */
-  .contactform {
-    margin-left: 0;
-    margin-top: 0;
-    margin-bottom: 0;
-  }
-  
-  .main-contact-container{
-      margin-bottom: -6%;
-      width: auto;
-      padding: 0px;
-      display: flex;
-      flex-direction: column;
-  }
-  
-  
-  .contact-section h1 {
-    margin-left: 0;
-    text-align: center;
-    font-size: 2rem;
-  }
-
-  .info p {
-    margin-left: 0;
-    text-align: center;
-  }
-
-  .contact-info h5 {
-      font-size: 2rem;
-      margin-bottom: 30px;
-  }
-  .contact-info {
-    margin-right: 40px;
-    margin-left: 28px;
-    height: 25rem;
-    margin-top: 48px;
-    margin-bottom: 80px;
-  }
-  .donate {
-    margin: 25px -13px 34px 94px;
-  }
 }
-
