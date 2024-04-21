@@ -1021,6 +1021,23 @@ li a {
     margin-top:-2rem;
 
 
+
+  }
+  .info-container{
+    height:90rem;
+  }
+  .info-container li{
+    font-size:1.7rem;
+    margin-left: -3rem;
+    text-align: justify;
+  }
+  .main-hexagon{
+    display:grid;
+    grid-template-columns: repeat(auto-fill,minmax(150px,1fr));
+    /* gap:3.1rem; */
+    width:100%;
+    margin-left: 3rem;
+
   }
   .info-container{
     height:90rem;
@@ -1175,7 +1192,5 @@ width:6rem;
 height:6rem;
 
 }
-
-
 
 }
