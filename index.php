@@ -24,7 +24,7 @@
   <nav class="navbar fixed-top navbar-expand-lg navbar-dark p-md-3">
     <div class="container-fluid ">
 
-      <a href="index.html">
+      <a href="index.php">
         <img src="assets/logo.png">
     </a>
       <!-- <p>Foundation</p> -->
@@ -133,7 +133,7 @@
       <div class="carousel-item" >
         <img src="assets/phil-hearing-cylPETXS7is-unsplash.jpg" class="d-block w-100" alt="...">
         <div class="carousel-caption d-none d-md-block">
-          <h5 id="d3">know more</h5>
+          <h5 id="d3"><a href="aboutus.php">know more</a></h5>
           <h2 id="page3"><span>Education is the preparation for life,education is life itself</span></h2>
 
 

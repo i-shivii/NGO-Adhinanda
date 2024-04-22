@@ -484,6 +484,7 @@ background-color: #fff;
 /* .................................................. */ 
 /* box */
 
+
 .sec-box{
   height:550px;
   width:100%;
@@ -506,11 +507,11 @@ background-color: #fff;
 }
 .box1 h3,.box2 h3,.box3 h3{
   margin: 0px 60px -114px 60px;
-  font-size:207%;
+  font-size:2rem;
 }
 .box1 p,.box2 p,.box3 p{
   margin: 105px 22px 4px 19px;
-  font-size:100%;
+  font-size:1.6rem;
 
 }
 
@@ -541,6 +542,17 @@ background-color: #fff;
 }
 
 .box2{
+  width:400px;
+  height:405px;
+  /* border: 2px solid rgb(255, 255, 255);  */
+  margin:185px 20px 20px -10px;  
+  padding:(0px 0px 0px 0px);
+  color:white;
+  text-align: center;
+
+
+}
+.box3{
   width:400px;
   height:405px;
   /* border: 2px solid rgb(255, 255, 255);  */
@@ -662,7 +674,7 @@ text-align: center;
 
 /* story */
 .story-class {
-  margin-top: -1rem;
+  margin-top: 3rem;
   /* margin-bottom: 117px; */
   margin-bottom:40px;
 

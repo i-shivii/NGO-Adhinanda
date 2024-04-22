@@ -20,7 +20,7 @@
     <nav class="navbar fixed-top navbar-expand-lg navbar-dark p-md-3">
     <div class="container-fluid ">
 
-      <a href="index.html">
+      <a href="index.php">
         <img src="assets/logo.png">
     </a>
       <!-- <p>Foundation</p> -->
