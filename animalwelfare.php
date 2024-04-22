@@ -17,11 +17,11 @@
 <body>
   
 
-  <nav class="navbar fixed-top navbar-expand-lg navbar-dark p-md-3">
+<nav class="navbar fixed-top navbar-expand-lg navbar-dark p-md-3">
     <div class="container-fluid ">
-      <a class="navbar-brand" href="index.html" target="_blank">
-        <img src="assets/logo.png" alt="..">
-  
+
+      <a href="index.html">
+        <img src="assets/logo.png">
     </a>
       <!-- <p>Foundation</p> -->
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
@@ -37,20 +37,17 @@
               Who we are
             </a>
             <ul class="dropdown-menu">
-              <li><a class="dropdown-item" href="aboutus.html">About us</a></li>
+              <li><a class="dropdown-item" href="aboutus.php">About us</a></li>
               <li>
                 <hr class="dropdown-divider">
               </li>
-              <li><a class="dropdown-item" href="70years.html">70 years in India</a></li>
-              <li>
-                <hr class="dropdown-divider">
-              </li>
-              <li><a class="dropdown-item" href="individuals.html">Make A Difference</a></li>
+             
+              <li><a class="dropdown-item" href="individuals.php">Make A Difference</a></li>
               <li>
                 <hr class="dropdown-divider">
               </li>
               
-              <li><a class="dropdown-item" href="acc.html">Captures</a></li>
+              <li><a class="dropdown-item" href="acc.php">Captures</a></li>
              
        
 
@@ -62,23 +59,23 @@
               Our Work
             </a>
             <ul class="dropdown-menu">
-              <li><a class="dropdown-item" href="health.html">Health </a></li>
+              <li><a class="dropdown-item" href="health.php">Health </a></li>
               <li>
                 <hr class="dropdown-divider">
               </li>
-              <li><a class="dropdown-item" href="education.html">Education</a></li>
+              <li><a class="dropdown-item" href="education.php">Education</a></li>
               <li>
                 <hr class="dropdown-divider">
               </li>
-              <li><a class="dropdown-item" href="animalwelfare.html">Animal Welfare</a></li>
+              <li><a class="dropdown-item" href="animalwelfare.php">Animal Welfare</a></li>
               <li>
                 <hr class="dropdown-divider">
               </li>
-              <li><a class="dropdown-item" href="agriculture.html">Agriculture</a></li>
+              <li><a class="dropdown-item" href="agriculture.php">Agriculture</a></li>
               <li>
                 <hr class="dropdown-divider">
               </li>
-              <li><a class="dropdown-item" href="genderequality.html">Gender Equality</a></li>
+              <li><a class="dropdown-item" href="genderequality.php">Gender Equality</a></li>
 
 
             </ul>
@@ -88,11 +85,11 @@
               Achievements
             </a>
             <ul class="dropdown-menu">
-              <li><a class="dropdown-item" href="impact.html">Impact</a></li>
+              <li><a class="dropdown-item" href="impact.php">Impact</a></li>
               <li>
                 <hr class="dropdown-divider">
               </li>
-              <li><a class="dropdown-item" href="testimonials.html">Testimonials</a></li>
+              <li><a class="dropdown-item" href="testimonials.php">Testimonials</a></li>
               </li>
 
             </ul>

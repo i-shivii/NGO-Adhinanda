@@ -16,96 +16,93 @@
 <body>
 
     <!-- =================navigation================ -->
+  
     <nav class="navbar fixed-top navbar-expand-lg navbar-dark p-md-3">
-      <div class="container-fluid ">
-  
-      <a class="navbar-brand" href="index.html" target="_blank">
-        <img src="assets/logo.png" alt="..">
-  
-      </a>
-        <!-- <p>Foundation</p> -->
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
-          aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-  
-        <div class="collapse navbar-collapse" id="navbarNav">
-          <div class="mx-auto"></div>
-          <ul class="navbar-nav">
-            <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                Who we are
-              </a>
-              <ul class="dropdown-menu">
-                <li><a class="dropdown-item" href="aboutus.html">About us</a></li>
-                <li>
-                  <hr class="dropdown-divider">
-                </li>
-                <li><a class="dropdown-item" href="70years.html">70 years in India</a></li>
-                <li>
-                  <hr class="dropdown-divider">
-                </li>
-                <li><a class="dropdown-item" href="individuals.html">Make A Difference</a></li>
-                <li>
-                  <hr class="dropdown-divider">
-                </li>
-                
-                <li><a class="dropdown-item" href="acc.html">Captures</a></li>
-               
-         
-  
-  
-              </ul>
-            </li>
-            <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                Our Work
-              </a>
-              <ul class="dropdown-menu">
-                <li><a class="dropdown-item" href="health.html">Health </a></li>
-                <li>
-                  <hr class="dropdown-divider">
-                </li>
-                <li><a class="dropdown-item" href="education.html">Education</a></li>
-                <li>
-                  <hr class="dropdown-divider">
-                </li>
-                <li><a class="dropdown-item" href="animalwelfare.html">Animal Welfare</a></li>
-                <li>
-                  <hr class="dropdown-divider">
-                </li>
-                <li><a class="dropdown-item" href="agriculture.html">Agriculture</a></li>
-                <li>
-                  <hr class="dropdown-divider">
-                </li>
-                <li><a class="dropdown-item" href="genderequality.html">Gender Equality</a></li>
-  
-  
-              </ul>
-            </li>
-            <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                Achievements
-              </a>
-              <ul class="dropdown-menu">
-                <li><a class="dropdown-item" href="impact.html">Impact</a></li>
-                <li>
-                  <hr class="dropdown-divider">
-                </li>
-                <li><a class="dropdown-item" href="testimonials.html">Testimonials</a></li>
-                </li>
-  
-              </ul>
-          
+    <div class="container-fluid ">
+
+      <a href="index.html">
+        <img src="assets/logo.png">
+    </a>
+      <!-- <p>Foundation</p> -->
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <div class="mx-auto"></div>
+        <ul class="navbar-nav">
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Who we are
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="aboutus.php">About us</a></li>
+              <li>
+                <hr class="dropdown-divider">
+              </li>
+             
+              <li><a class="dropdown-item" href="individuals.php">Make A Difference</a></li>
+              <li>
+                <hr class="dropdown-divider">
+              </li>
+              
+              <li><a class="dropdown-item" href="acc.php">Captures</a></li>
+             
        
-            </div>
-          <form class="d-flex " role="search" id="form">
-            <input class="form-control me-1 ms-1" type="search" placeholder="Search" aria-label="Search">
-            <button class="btnform " type="submit">Search</button>
-          </form>
+
+
+            </ul>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Our Work
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="health.php">Health </a></li>
+              <li>
+                <hr class="dropdown-divider">
+              </li>
+              <li><a class="dropdown-item" href="education.php">Education</a></li>
+              <li>
+                <hr class="dropdown-divider">
+              </li>
+              <li><a class="dropdown-item" href="animalwelfare.php">Animal Welfare</a></li>
+              <li>
+                <hr class="dropdown-divider">
+              </li>
+              <li><a class="dropdown-item" href="agriculture.php">Agriculture</a></li>
+              <li>
+                <hr class="dropdown-divider">
+              </li>
+              <li><a class="dropdown-item" href="genderequality.php">Gender Equality</a></li>
+
+
+            </ul>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Achievements
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="impact.php">Impact</a></li>
+              <li>
+                <hr class="dropdown-divider">
+              </li>
+              <li><a class="dropdown-item" href="testimonials.php">Testimonials</a></li>
+              </li>
+
+            </ul>
+        
+     
+        <form class="d-flex " role="search" id="form">
+          <input class="form-control me-1 ms-1" type="search" placeholder="Search" aria-label="Search">
+          <button class="btnform " type="submit">Search</button>
+        </form>
       </div>
-    </nav>
-    <!-- =============================image===================== -->
+    </div>
+  </nav>
+  <!-- =============================image===================== -->
     <section>
         <div class="image">
 
