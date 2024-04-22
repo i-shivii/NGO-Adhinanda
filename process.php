@@ -2,13 +2,13 @@
 include("config.php");
 
 extract($_POST);
-$query = "INSERT INTO `contact_data`(`fname` , `lname` , `email` , `phone`) VALUES ('" . $fname . "' ,' " . $lname . "' ,' " . $email . "' , '" . $phone . "')";
+$query = "INSERT INTO `adhinanda_ngo`(`prenom` , `email` , `adresse` , `phone` , `message`) VALUES ('" . $prenom . "' ,' " . $email . "' ,' " . $adresse . "' , '" . $phone . "' , '" . $message . "')";
 $result = $mysqli->query($query);
 if (!$result) {
     echo "Something went Wrong" . $mysqli->error;
 }
 
-echo "Thanks you for submittijlly your Query";
+echo "Thanks you for submitting your Query";
 $mysqli->close();
 
 

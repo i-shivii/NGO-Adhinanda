@@ -905,7 +905,7 @@ li a {
   }
 
   .header h1 {
-    margin-top: 9rem;
+    margin-top: 7rem;
     width: 100%;
     position: absolute;
   }
@@ -921,11 +921,11 @@ li a {
 
 
   .what-we-hieght h1 {
-    padding-left: 35%;
+    padding-left: 25%;
   }
 
   #cardheading {
-    padding-left: 28%;
+    padding-left: 15%;
   } 
   .card-outer {
     margin-left: 10%;

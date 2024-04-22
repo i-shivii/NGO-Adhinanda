@@ -495,6 +495,9 @@ i {
 .contentform {
   padding: 40px 30px;
 }
+.contact-address{
+  display: none;
+}
 
 .bouton-contact{
   background-color: #015e15;
@@ -560,14 +563,6 @@ i {
 }
 .modal-header{
   margin:-10px 0px 0px 14px ;
-}
-
-
-/* Style for contact information container */
-.contact-address {
-  height: 80px;
-  width: 80px;
-  background: white;
 }
 
 /* Style for contact information section */
@@ -918,7 +913,7 @@ li a {
   }
 
   #cardheading {
-    padding-left: 25%;
+    padding-left: 11%;
   } 
   .card-outer {
     margin-left: 8%;

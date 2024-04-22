@@ -279,115 +279,75 @@
 <!-- contact us -->
 <section class="contact-section">
   <div class="main-contact-container">
-
-  <div class="form">
-<form class="contactform">
-  <h1> Contact Us</h1>
-<div class="contentform">
-    <!-- <div id="sendmessage"> Your message has been sent successfully. Thank you. </div> -->
-
-
-    <div class="leftcontact">
-
-        <div class="form-group">
-        <p>Name <span>*</span></p>
-        <span class="icon-case"> <i class="ri-user-line"></i></span>
-            <input type="text" name="prenom" id="prenom" data-rule="required" data-msg="Vérifiez votre saisie sur les champs : Le champ 'Prénom' doit être renseigné."/>
-            <div class="validation"></div>
+    <div class="form">
+      <form class="contactform" method="post" action="process.php">
+        <h1>Contact Us</h1>
+        <div class="contentform">
+          <div class="leftcontact">
+            <div class="form-group">
+              <p>Name <span>*</span></p>
+              <span class="icon-case"><i class="ri-user-line"></i></span>
+              <input type="text" name="prenom" id="prenom" data-rule="required" data-msg="Vérifiez votre saisie sur les champs : Le champ 'Prénom' doit être renseigné." />
+              <div class="validation"></div>
+            </div>
+            <div class="form-group">
+              <p>E-mail <span>*</span></p>
+              <span class="icon-case"><i class="ri-mail-line"></i></span>
+              <input type="email" name="email" id="email" data-rule="email" data-msg="Vérifiez votre saisie sur les champs : Le champ 'E-mail' est obligatoire." />
+              <div class="validation"></div>
+            </div>
+            <div class="form-group">
+              <p>Address <span>*</span></p>
+              <span class="icon-case"><i class="ri-map-pin-line"></i></span>
+              <input type="text" name="adresse" id="adresse" data-rule="required" data-msg="Vérifiez votre saisie sur les champs : Le champ 'Adresse' doit être renseigné." />
+              <div class="validation"></div>
+            </div>
+          </div>
+          <div class="rightcontact">
+            <div class="form-group">
+              <p>Phone number <span>*</span></p>
+              <span class="icon-case"><i class="ri-phone-line"></i></span>
+              <input type="text" name="phone" id="phone" data-rule="maxlen:10" data-msg="Vérifiez votre saisie sur les champs : Le champ 'Téléphone' doit être renseigné. Minimum 10 chiffres" />
+              <div class="validation"></div>
+            </div>
+            <div class="form-group">
+              <p>Message <span>*</span></p>
+              <span class="icon-case"><i class="ri-chat-4-line"></i></span>
+              <textarea name="message" rows="14" data-rule="required" data-msg="Vérifiez votre saisie sur les champs : Le champ 'Message' doit être renseigné."></textarea>
+              <div class="validation"></div>
+            </div>
+          </div>
         </div>
-
-        <div class="form-group">
-        <p>E-mail <span>*</span></p>	
-        <span class="icon-case"> <i class="ri-mail-line"></i></span>
-            <input type="email" name="email" id="email" data-rule="email" data-msg="Vérifiez votre saisie sur les champs : Le champ 'E-mail' est obligatoire."/>
-            <div class="validation"></div>
-        </div>	
-
-
-        <div class="form-group">
-        <p>Address <span>*</span></p>
-        <span class="icon-case"> <i class="ri-map-pin-line"></i></span>
-            <input type="text" name="adresse" id="adresse" data-rule="required" data-msg="Vérifiez votre saisie sur les champs : Le champ 'Adresse' doit être renseigné."/>
-            <div class="validation"></div>
-        </div>	
-
-
-
-</div>
-
-<div class="rightcontact">	
-
-        <div class="form-group">
-        <p>Phone number <span>*</span></p>	
-        <span class="icon-case"><i class="ri-phone-line"></i></span>
-            <input type="text" name="phone" id="phone" data-rule="maxlen:10" data-msg="Vérifiez votre saisie sur les champs : Le champ 'Téléphone' doit être renseigné. Minimum 10 chiffres"/>
-            <div class="validation"></div>
-        </div>
-    
-        <div class="form-group">
-        <p>Message <span>*</span></p>
-        <span class="icon-case"><i class="ri-chat-4-line"></i></span>
-            <textarea name="message" rows="14" data-rule="required" data-msg="Vérifiez votre saisie sur les champs : Le champ 'Message' doit être renseigné."></textarea>
-            <div class="validation"></div>
-        </div>	
-</div>
-</div>
-<!-- <button type="submit" class="bouton-contact">Send</button> -->
-
-<button type="button" class="btn btn-primary bouton-contact" data-bs-toggle="modal" data-bs-target="#exampleModal">
-  Send
-</button>
-
-<!-- Modal -->
-<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-  <div class="modal-dialog">
-    <div class="modal-content">
-      <div class="modal-header">
-        <h1 class="modal-title fs-5" id="exampleModalLabel">Submission Successful</h1>
-   
-      </div>
-      <div class="modal-body">
-        Your Response Has Been Successfully Submitted
-      </div>
-      <div class="modal-footer">
-        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-      
+        <button type="submit" class="btn btn-primary bouton-contact">Send</button>
+      </form>
+    </div>
+    <div class="contact-adresse">
+      <div class="contact-info">
+        <h5>Reach us</h5>
+        <p class="mb-5">Should you have any questions, please do not hesitate to contact us:</p>
+        <ul class="list-unstyled">
+          <li class="c-flex">
+            <span class="wrap-icon icon-room mr-3"><i class="ri-map-pin-line"></i></span>
+            <span class="text">C/O KANTI DEVI, VILL CHEWARA PANCH -CHEWARA SHEIKHPURA BIHAR</span>
+          </li>
+          <li class="c-flex">
+            <span class="wrap-icon icon-phone mr-3"><i class="ri-phone-line"></i></span>
+            <span class="text">+91 9931029393</span>
+          </li>
+          <li class="c-flex">
+            <span class="wrap-icon icon-envelope mr-3"><i class="ri-link"></i></span>
+            <span class="text">info@mywebsite.com</span>
+          </li>
+        </ul>
+        <button class="donate">Donate Now</button>
       </div>
     </div>
   </div>
-</div>
+</section>
 
-</form>	
-</div>
-<div class="'contact-address">
-        <div class="contact-info">
-          <h5> Reach us </h5>
-          <p class="mb-5">Should you have any questions, please do not hesitate to contact us:</p>
-          <ul class="list-unstyled">
-            <li class="c-flex">
-              <span class="wrap-icon icon-room mr-3" ><i class="ri-map-pin-line"></i></span>
-              <span class="text" >C/O KANTI DEVI, VILL CHEWARA PANCH -CHEWARA SHEIKHPURA BIHAR
-              </span>
-            </li>
-            <li class="c-flex">
-              <span class="wrap-icon icon-phone mr-3"><i class="ri-phone-line"></i></span>
-              <span class="text">+91 9931029393</span>
-            </li>
-            <li class="c-flex">
-              <span class="wrap-icon icon-envelope mr-3"><i class="ri-link"></i></span>
-              <span class="text">info@mywebsite.com</span>
-            </li>
-          </ul>
-          <button class="donate"> Donate Now
-          </button>
-        </div>
-        
-      </div>
-      </div>
-      <!-- </div> -->
-  </section>
+<!-- footer -->
 
-  <section class="footersec">
+<section class="footersec">
     <footer class="footer" role="contentinfo">
       <!-- <div class="footer-middle"> -->
         <div class="container">
@@ -397,10 +357,10 @@
               <div class="footer-pad">
                 <h4>Quick Links </h4>
                 <ul class="list-unstyled">
-                  <li><a href="aboutus.html"></href><i class="ri-arrow-drop-right-fill"></i>About Us</a></li>
-                  <li><a href="70years.html"></href><i class="ri-arrow-drop-right-fill"></i>70 Years In India </a></li>
-                  <li><a href="individuals.html"></href><i class="ri-arrow-drop-right-fill"></i>Make A Difference</a></li>
-                  <li><a href="acc.html"></href><i class="ri-arrow-drop-right-fill"></i>Captures</a></li>
+                  <li><a href="aboutus.php"></href><i class="ri-arrow-drop-right-fill"></i>About Us</a></li>
+                  <li><a href="70years.php"></href><i class="ri-arrow-drop-right-fill"></i>90 Years In India </a></li>
+                  <li><a href="individuals.php"></href><i class="ri-arrow-drop-right-fill"></i>Make A Difference</a></li>
+                  <li><a href="acc.php"></href><i class="ri-arrow-drop-right-fill"></i>Captures</a></li>
                 </ul>
               </div>
             </div>
@@ -409,11 +369,11 @@
               <div class="footer-pad">
                 <h4>Our Work </h4>
                 <ul class="list-unstyled">
-                  <li><a href="health.html"></href><i class="ri-arrow-drop-right-fill"></i>Health </a></li>
-                  <li><a href="education.html"></href><i class="ri-arrow-drop-right-fill"></i>Education </a></li>
-                  <li><a href="agriculture.html"></href><i class="ri-arrow-drop-right-fill"></i>Agriculture</a></li>
-                  <li><a href="genderequality.html"></href><i class="ri-arrow-drop-right-fill"></i>Gender Equality</a></li>
-                  <li><a href="animalwelfare.html"></href><i class="ri-arrow-drop-right-fill"></i>Animal Welfare</a></li>
+                  <li><a href="health.php"></href><i class="ri-arrow-drop-right-fill"></i>Health </a></li>
+                  <li><a href="education.php"></href><i class="ri-arrow-drop-right-fill"></i>Education </a></li>
+                  <li><a href="agriculture.php"></href><i class="ri-arrow-drop-right-fill"></i>Agriculture</a></li>
+                  <li><a href="genderequality.php"></href><i class="ri-arrow-drop-right-fill"></i>Gender Equality</a></li>
+                  <li><a href="animalwelfare.php"></href><i class="ri-arrow-drop-right-fill"></i>Animal Welfare</a></li>
   
                 </ul>
               </div>
@@ -423,8 +383,8 @@
               <div class="footer-pad">
                 <h4>Achievements</h4>
                 <ul class="list-unstyled">
-                  <li><a href="impact.html"></href><i class="ri-arrow-drop-right-fill"></i>Impact </a></li>
-                  <li><a href="testimonials.html"></href><i class="ri-arrow-drop-right-fill"></i>Testimonials</a></li>
+                  <li><a href="impact.php"></href><i class="ri-arrow-drop-right-fill"></i>Impact </a></li>
+                  <li><a href="testimonials.php"></href><i class="ri-arrow-drop-right-fill"></i>Testimonials</a></li>
                   
                 </ul>
               </div>
@@ -451,6 +411,6 @@
   
   
       </footer>
-    </section>
+</section>
   </body>
   </html>
