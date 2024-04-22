@@ -1031,18 +1031,17 @@ margin-right:0px; */
 
 /* ...................................................................................... */
 /* contact us  */
+
+/* contact us */
 .main-contact-container{
   background-color: var(--main-color);
-  height:700px;
-  /* width: 100%; */
+  height:750px;
   margin-bottom: -100px;
+  width: auto; 
+  padding: 20px;
   display: flex;
   justify-content: center;
   align-items: center;
-
-}
-.contact-section h1 {
-    margin-left: 100px;
 
 }
  
@@ -1065,20 +1064,21 @@ margin-right:0px; */
   margin-left: 6%;
   background: var(--main-color);
   overflow: hidden;
-  padding-bottom: 0px;
+  padding-bottom: 30px;
   margin-top:-100px;
-  margin-bottom:0px;
+  margin-bottom:50px;
 }
 .contactform h1{
   color: var(--text-color);
-  padding-right: 60px;
+  padding-right: 20px;
   font-size: 4rem;
   text-shadow:0px 0px 4px rgb(12, 0, 5) ;
   margin-top:20px;
   margin-bottom:20px;
-  margin-left:40px;
-  padding-left:100px;
+  margin-left: 100px;
+  padding-left:20px;
 }
+
 .form-group p span {
   color: #F00;
 }
@@ -1147,6 +1147,9 @@ i {
 .contentform {
   padding: 40px 30px;
 }
+.contact-address{
+  display: none;
+}
 
 .bouton-contact{
   background-color: #015e15;
@@ -1159,7 +1162,7 @@ i {
   cursor: pointer;
   margin-top: 40px;
   font-size: 18px;
-  margin-left:150px;
+  margin-left:25%;
 }
 
 .leftcontact {
@@ -1214,29 +1217,23 @@ i {
   margin:-10px 0px 0px 14px ;
 }
 
-
-/* Style for contact information container */
-.contact-address {
-  height: 80px;
-  width: 80px;
-  background: white;
-}
-
 /* Style for contact information section */
 .contact-info {
   background: var(--main-color);
+  padding: -13px;
   margin-right: 40px;
   margin-left: 90px;
-  height: 200px;
-  margin-bottom:0px;
-  
+  height: 23rem;
+  margin-top: -35%;
 }
 
 /* Style for headings */
 .contact-info h5 {
   color: var(--text-color);
-  font-size: 2em;
-  margin-bottom: 30px;
+  text-shadow: 0px 0px 4px rgb(12, 0, 5);
+  font-size: 3.5em;
+  margin-bottom: 70px;
+  padding-left: 30%;
   
 }
 
@@ -1281,8 +1278,9 @@ li .wrap-icon {
 }
 
 .donate{
-  padding: 1.3em 3em;
-  margin:157px 77px 0px 96px;
+  padding: 1.7em 3em;
+  margin-left: 40%;
+  margin-top: 18%;
   font-size: 12px;
   text-transform: uppercase;
   letter-spacing: 2.5px;
@@ -1477,11 +1475,6 @@ li a {
   text-decoration: none; /* Remove underlines from links */
   color: #fff; /* Set link color */
 }
-
-
-
-
-
 @media (max-width: 426px) {
 
   
@@ -1886,7 +1879,40 @@ padding-bottom:4rem;
 }
 
 
+.main-contact-container{
+  margin-bottom: -6%;
+  width: auto;
+  padding: 0px;
+  display: flex;
+  flex-direction: column;
+}
 
+
+.contact-section h1 {
+margin-left: 0;
+text-align: center;
+font-size: 2rem;
+}
+
+.info p {
+margin-left: 0;
+text-align: center;
+}
+
+.contact-info h5 {
+  font-size: 2rem;
+  margin-bottom: 30px;
+}
+.contact-info {
+margin-right: 40px;
+margin-left: 28px;
+height: 25rem;
+margin-top: 48px;
+margin-bottom: 80px;
+}
+.donate {
+margin: 25px -13px 34px 94px;
+}
 
 
 
